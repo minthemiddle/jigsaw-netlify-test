@@ -1,6 +1,3 @@
 [build]
 
-PHP_VERSION="7"
-
-command = "php -v && ./vendor/bin/jigsaw build production"
-publish = "/build_production"
+command = "php -v"
