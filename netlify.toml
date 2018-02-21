@@ -1,6 +1,6 @@
 [build]
 
-PHP_VERSION="7.2.2"
+PHP_VERSION="7.2"
 
-command = "/opt/buildhome/.phpbrew/bin/composer install && ./vendor/bin/jigsaw build production"
+command = "./vendor/bin/jigsaw build production"
 publish = "/build_production"
