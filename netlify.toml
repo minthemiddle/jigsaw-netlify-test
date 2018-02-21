@@ -2,5 +2,5 @@
 
 PHP_VERSION="7.2.2"
 
-command = "composer require && ./vendor/bin/jigsaw build production"
+command = "/opt/buildhome/.phpbrew/bin/composer install && ./vendor/bin/jigsaw build production"
 publish = "/build_production"
