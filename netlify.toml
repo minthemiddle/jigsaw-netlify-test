@@ -1,4 +1,6 @@
 [build]
 
+PHP_VERSION=7.2
+
 command = "composer install && ./vendor/bin/jigsaw build production"
 publish = "build_production"
